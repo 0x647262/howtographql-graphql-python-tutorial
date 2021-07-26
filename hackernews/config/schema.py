@@ -1,6 +1,5 @@
 import graphene
 import graphql_jwt
-
 from links import schema as links_schema
 from users import schema as users_schema
 

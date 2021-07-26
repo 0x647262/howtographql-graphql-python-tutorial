@@ -1,8 +1,8 @@
 import graphene
 import graphql_jwt
 
-from hackernews.links import schema as links_schema
-from hackernews.users import schema as users_schema
+from links import schema as links_schema
+from users import schema as users_schema
 
 
 class Query(links_schema.Query, users_schema.Query, graphene.ObjectType):
